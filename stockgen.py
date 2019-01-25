@@ -10,7 +10,7 @@ import json
 
 lock = threading.Lock()
 
-MONGO_URI = 'mongodb://localhost:27020/Stock'
+MONGO_URI = 'mongodb://localhost:27017/Stock'
 
 volatility=.001
 symbols=[]
